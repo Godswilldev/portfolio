@@ -167,6 +167,126 @@
   margin: 10px;
 }
 
+/* Skills Section */
+.skills-wrapper {
+  margin-top: 15px;
+}
+
+.skills-section {
+  margin-bottom: 30px;
+}
+
+.skills-section__title {
+  color: #af3b86;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.skills-section__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-section__item {
+  background: #af3b8626;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Certifications Section */
+.certifications-wrapper {
+  margin-top: 15px;
+}
+
+.certification {
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  z-index: 10;
+}
+
+.certification__name {
+  font-size: 1.2em;
+  color: #af3b86;
+  margin: 0 0 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.certification__issuer {
+  font-style: italic;
+  margin: 5px 0;
+  color: #666;
+}
+
+.certification__year {
+  display: inline-block;
+  background: #af3b8626;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 0.85em;
+  margin: 5px 0;
+  color: #333;
+}
+
+.certification__status {
+  display: inline-block;
+  background: #af3b8626;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 0.85em;
+  margin: 5px 0 5px 10px;
+  color: #333;
+}
+
+/* Achievements Section */
+.achievements-wrapper {
+  margin-top: 15px;
+  position: relative;
+}
+
+.achievement {
+  position: relative;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  padding-left: 20px;
+  z-index: 10;
+}
+
+.achievement__text {
+  line-height: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.achievement::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #af3b86;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.achievements-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 0;
+  left: 7px;
+  width: 2px;
+  background: #ccc;
+}
+
 @media only screen and (max-width: 1200px) {
   .resume-page {
     padding: 40px;
@@ -183,16 +303,25 @@
     margin-bottom: 20px;
   }
   .work-wrapper,
-  .education-wrapper {
+  .education-wrapper,
+  .certifications-wrapper,
+  .achievements-wrapper {
     margin-left: 30px;
   }
   .work-wrapper::after,
-  .education-wrapper::after {
+  .education-wrapper::after,
+  .achievements-wrapper::after {
     left: 0;
   }
   .work__summary::after,
   .education__summary::after {
     left: -37px;
+  }
+  .achievement {
+    padding-left: 30px;
+  }
+  .achievement::before {
+    left: 10px;
   }
 }
 
