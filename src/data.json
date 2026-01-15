@@ -26,57 +26,71 @@
       "summary": "• This was a project‑based learning journey building declarative user interfaces, making state more predictable, and boosting app efficiency and robustness. I also had the opportunity to develop mobile apps for iOS and Android devices using React-native.\n\n\t• React Fundamentals\n\t• React and Redux\n\t• React Native"
     },
     {
-      "degree": "BEng. in Electrical Electronics Engineering",
+      "degree": "BEng. Electrical Electronics Engineering",
       "school": "Federal University of Technology Owerri, Nigeria.",
       "timeline": { "from": "Jan 2017", "to": "Dec 2022" },
-      "summary": "• CGPA: 4.0  \n• Candidate for a Bachelor of Engineering Degree in Electrical Electronics Engineering"
+      "summary": "• Bachelor of Engineering Degree in Electrical Electronics Engineering"
     }
   ],
   "work": [
     {
+      "role": "Backend & DevOps Engineer Lead",
+      "location": "Dubai, UAE",
+      "company": "A6 Labs",
+      "timeline": { "from": "Jan 2025", "to": "Present" },
+      "summary": "• ZICMA Carbon Credit Marketplace Platform: Architected and built production-grade backend system from scratch processing $1M+ in transactions. Designed NestJS monorepo with 3 microservices (Portal API, Admin API, Worker Service) using TypeScript, GraphQL, PostgreSQL, and Redis. System handles complex financial transactions, blockchain settlements, and automated credit processing with 99.9% uptime. \n• Scalable Architecture & Performance Optimization: Implemented Redis caching layer reducing database load by 60%+, optimized PostgreSQL queries with connection pooling for high-throughput scenarios, and designed horizontal scaling with stateless containerized services. Built comprehensive metrics collection with Prometheus tracking HTTP requests, GraphQL operations, and database performance. \n• DevOps & Infrastructure Automation: Established complete CI/CD pipeline using GitHub Actions for automated testing, building, and deployment across test, demo, and production environments. Configured AWS ECS with sidecar containers (Prometheus, PostgreSQL exporter, CloudWatch exporter) for full observability. Set up Grafana dashboards and alerting rules for proactive issue detection. \n• Blockchain Integration & Security: Integrated Fireblocks for secure digital asset custody, built smart contract interaction layer with proper error handling and retry logic. Implemented JWT authentication with RBAC, MFA, OAuth (Google, Microsoft), and KYC/AML compliance workflows. Designed idempotent transaction handling with error recovery and rollback mechanisms. \n• Third-Party Integrations & Compliance: Integrated payment gateways (Stripe, Paynow), KYC providers, built dedicated IPFS server for decentralized storage, and implemented webhook processing with hash validation. System helped secure $2.5M government contract through demonstrated reliability and compliance."
+    },
+    {
       "role": "Backend Engineer",
-      "location": "Remote, Dubai, UAE",
+      "location": "Dubai, UAE",
       "company": "Reneum Technology Labs",
-      "timeline": { "from": "May 2023", "to": "present" }, 
-      "summary": "• In my second month with the company, I migrated and optimized all our AWS Services (EC2 Servers, Databases, S3 Buckets, IAM users) from an old AWS Account to a new One, saving the company’s AWS costs by 25 percent. \n • Engineered a highly efficient and scalable Backend architecture using NestJS, and Graphql, resulting in a 40 percent increase in system performance \n• Collaborated with the Web3 team to integrate Web3 services and frameworks (web3.js, ether.js, siwe etc) into the Backend system. \n• Developed an Automated Continuous Integration and Continuous Deployment(CI/CD) pipeline using Githubworkflow and AWS‑EC2, reducing manual errors by 70 percent. \n• Enhanced database reliability by migrating to Amazon RDS, with manual and automated backups ensuring 100 percent uptime and reducing all forma of data loss."
-    },
-    {
-      "role": "Backend Engineer",
-      "location": "Remote, Lagos, Nigeria",
-      "company": "Revent Technologies",
-      "timeline": { "from": "Jan 2023", "to": "May 2023" }, 
-      "summary": "• Engineered a highly efficient and scalable backend architecture using NestJS, Node.js, and Express, resulting in a 40% increase in system performance. \n• Implemented advanced database management strategies utilizing PostgreSQL and Sequelize, leading to a 60% reduction in query response times. \n• Automated deployment and integration workflows using CircleCI and AWS Elastic Beanstalk, reducing manual errors by 70%. \n• Streamlined data storage and retrieval processes by integrating AWS S3, resulting in a 50% increase in data access speed. \n• Enhanced database reliability by migrating to Amazon RDS, ensuring 100% uptime and reducing downtime by 90%."
-    },
-    {
-      "role": "Backend Engineer",
-      "location": "Remote, Ontario, Canada",
-      "company": "Yaraa.io",
-      "timeline": { "from": "July 2022", "to": "Dec 2022" },
-      "summary": "• Revolutionized the application development and deployment process by deploying a powerful CI/CD pipeline using CircleCI, resulting in a 50% reduction in errors and mistakes, a 20% increase in productivity, and a significant boost in customer satisfaction by providing a clear and comprehensive understanding of the development cycle.\n• Designed and deployed integrative endpoints that connected Yaraa.io procurement system with multiple accounting systems, including Microsoft Dynamics 365, Odoo ERP, Amazon Business, Zero Accounting, and Oracle Netsuite, resulting in improved data flow and efficiency.\n• Championed the development efforts for the Yaraa.io platform, updating code, database structure, and endpoints to ensure feature accuracy, leading to a successful go‑live and positive impact on business operations.\n• Transformed the API architecture by implementing a robust and scalable RESTful API using NestJS/NodeJS, integrating with AWS S3, and enriching the customer experience by providing seamless API integration and improved performance."
-    },
-    {
-      "role": "Frontend Engineer",
-      "location": "Remote Armsterdam, Netherlands",
-      "company": "Zimmerman B.V",
-      "timeline": { "from": "Dec 2021", "to": "June 2022" },
-      "summary": "• Developed robust and scalable applications in an Agile environment, ensuring project timelines were met and delivering high-quality products with a significant impact on users.\n• Optimized the performance of the company’s current website by utilizing SEO strategies, resulting in a Page Speed performance score of 87.\n• Implemented comprehensive end‑to‑end testing using Cypress Library to guarantee that code met product requirements and ensured a seamless deployment to production.\n• Conducted thorough reviews and testing of customer‑facing prototypes using the cypress library, applying best practices to verify usability, resulting in a smooth deployment process.\n• Delivered websites that were compatible with multiple browsers, ensuring fast‑loading sites with visually appealing layouts, meeting specific requirements and delivering an optimal user experience."
-    },
-    {
-      "role": "Backend Engineer",
-      "location": "Remote, Lagos, Nigeria",
-      "company": "HNG Internship",
-      "timeline": { "from": "Aug 2021", "to": "Nov 2021" },
-      "summary": "• Acted in leadership capacity in the design and development of software for a complex web application, by translating software requirements into working and maintainable solutions within the existing application frameworks.\n• Liaised with other developers, designers and DevOps Engineers to identify new features.\n• Implemented pre‑approved UI, constructing API endpoints, connecting the two, and setting up server infrastructure. This includes all associated areas such as database and architecture design.\n• Overseeing and guiding the analyzing, writing, building, and deployment of software.\n• Technical Skills: Redux, SCSS, React, Javascript, NodeJS, ExpressJs Git.\n• Soft Skills: Accountability, Leadership, Communication."
+      "timeline": { "from": "May 2023", "to": "Jan 2025" },
+      "summary": "• Platform Architecture & Development: Built entire backend infrastructure for renewable energy investment platform using NestJS, GraphQL, PostgreSQL, and AWS. Architected scalable system handling complex financial transactions and project management workflows. Platform helped secure $1M in investor funding through technical excellence and reliability. \n• AWS Infrastructure Optimization: Migrated and optimized all AWS services (EC2, RDS, S3, IAM) from legacy account to new infrastructure, reducing AWS costs by 25% while improving performance and security posture. Implemented best practices for resource management and cost optimization. \n• Web3 Integration & Blockchain Services: Collaborated with Web3 team to integrate blockchain services using web3.js, ethers.js, and SIWE (Sign-In with Ethereum). Built secure wallet management, smart contract interactions, and transaction monitoring systems for decentralized finance features. \n• CI/CD Pipeline & Automation: Developed automated CI/CD pipeline using GitHub Actions and AWS EC2, eliminating manual deployments and reducing errors. Implemented automated testing, code quality checks, and deployment workflows across multiple environments. \n• Security & Authentication: Enhanced application security with OAuth and JWT authentication, implementing role-based access control and multi-factor authentication. Improved data integrity and user trust through comprehensive security measures."
     },
     {
       "role": "Backend Engineer",
       "location": "Lagos, Nigeria",
-      "company": "Zuri Team",
+      "company": "Revent Technologies",
+      "timeline": { "from": "Jan 2023", "to": "May 2023" },
+      "summary": "• System Architecture & Performance: Engineered highly efficient and scalable backend architecture using NestJS, Node.js, and Express, resulting in 40% increase in system performance. Implemented advanced database management strategies utilizing PostgreSQL and Sequelize, leading to 60% reduction in query response times. \n• DevOps & Deployment Automation: Automated deployment and integration workflows using CircleCI and AWS Elastic Beanstalk, reducing manual errors by 70%. Streamlined data storage and retrieval processes by integrating AWS S3, resulting in 50% increase in data access speed."
+    },
+    {
+      "role": "Backend Engineer",
+      "location": "Ontario, Canada",
+      "company": "Yaraa.io",
+      "timeline": { "from": "July 2022", "to": "Dec 2022" },
+      "summary": "• CI/CD Pipeline Implementation: Deployed powerful CI/CD pipeline using CircleCI, resulting in 50% reduction in deployment errors, 20% increase in productivity, and significant boost in customer satisfaction through improved development cycle transparency. \n• Enterprise Integration Architecture: Designed and deployed integrative endpoints connecting procurement system with multiple accounting platforms including Microsoft Dynamics 365, Odoo ERP, Amazon Business, Zero Accounting, and Oracle NetSuite. Improved data flow and operational efficiency across enterprise systems. \n• API Architecture & Cloud Integration: Transformed API architecture by implementing robust and scalable RESTful API using NestJS/Node.js, integrating with AWS S3 for file storage. Enhanced customer experience through seamless API integration and improved performance."
+    },
+    {
+      "role": "Frontend Engineer",
+      "location": "Amsterdam, Netherlands",
+      "company": "Zimmerman B.V",
+      "timeline": { "from": "Dec 2021", "to": "June 2022" },
+      "summary": "• Performance Optimization & SEO: Revamped company website implementing advanced SEO strategies, achieving Page Speed performance score of 87%. Executed extensive end-to-end testing using Cypress, guaranteeing 100% code compliance with product requirements. \n• Agile Development & User Engagement: Successfully delivered high-quality applications within Agile-driven timelines, resulting in 20% increase in user engagement. Implemented UI/UX designs for data visualization dashboards with focus on user experience and accessibility."
+    },
+    {
+      "role": "Backend Engineer",
+      "location": "Lagos, Nigeria",
+      "company": "Hotels.Ng",
+      "timeline": { "from": "Aug 2021", "to": "Nov 2021" },
+      "summary": "• Agile Development & Quality Assurance: Developed robust and scalable applications in Agile environment, ensuring project timelines were met and delivering high-quality products with significant user impact. Optimized website performance utilizing SEO strategies, achieving Page Speed score of 87. \n• Testing & Deployment: Implemented comprehensive end-to-end testing using Cypress Library to guarantee code met product requirements and ensured seamless deployment to production. Maintained high code quality standards throughout development lifecycle."
+    },
+    {
+      "role": "Backend Engineer",
+      "location": "Remote, Beaverton",
+      "company": "Zuri Team, Inc",
       "timeline": { "from": "April 2021", "to": "July 2021" },
-      "summary": "• Improved development processes and technologies by recommending and implementing best practices, resulting in a 20% reduction in development time and a 15% increase in overall productivity.\n• Designed and implemented scalable backend services, resulting in a 50% increase in system performance and a reduction of server response time by 30%.\n• Developed and implemented robust security protocols and data protection measures, resulting in zero data breaches and ensuring compliance with industry standards.\n • Collaborated effectively with front‑end developers to integrate new features and functionalities, resulting in a seamless user experience and a 25% reduction in bug reports."
+      "summary": "• Process Improvement & Best Practices: Improved development processes and technologies by recommending and implementing best practices, resulting in 20% reduction in development time and 15% increase in overall productivity. \n• Scalable Backend Services: Designed and implemented scalable backend services, resulting in 50% increase in system performance and 30% reduction in server response time. Collaborated effectively with front-end developers to integrate new features, resulting in seamless user experience and 25% reduction in bug reports."
     }
   ],
   "projects": {
+    "ZICMA": {
+      "name": "ZICMA",
+      "description": "\n \t • ZICMA Carbon Credit Marketplace Platform: Architected and built production-grade backend system from scratch processing $1M+ in transactions. Designed NestJS monorepo with 3 microservices (Portal API, Admin API, Worker Service) using TypeScript, GraphQL, PostgreSQL, and Redis. System handles complex financial transactions, blockchain settlements, and automated credit processing with 99.9% uptime. \n \t • TECH STACK: TypeScript, NestJS, GraphQL, PostgreSQL, Redis, AWS (ECS, Lambda, RDS, S3, EC2, Secrets Manager, SES, CloudWatch), Docker, Prometheus, Grafana, GitHub Actions, Fireblocks SDK, IPFS, Stripe, Paynow",
+      "image_url": "https://drive.google.com/file/d/1PHGjXyniy0vlWvlQM_3CpP64O2K7c-p_/view",
+      "gif_url": "",
+      "live_url": "https://zicma.org.zw"
+    },
     "Contract-Management-API": {
       "name": "Contract Management API",
       "description": "\n \t • A Contract management application built with nestjs. Contract Management Backend API. To automate the lifecycle of a contract between two parties. (From creation to execution). \n \t • TECH STACK: Typescript, NestJS, MySQL, TypeORM, AWS-SDK, CI/CD, Circle-CI, AWS Elastic-Beanstalk, AWS-S3",
@@ -130,5 +144,37 @@
       "live_url": "http://my-reads-project.vercel.app/",
       "github_url": "https://github.com/Godswilldev/MyReads-Project"
     }
-  }
+  },
+  "skills": {
+    "languages": ["TypeScript", "JavaScript", "Node.js", "SQL", "Bash", "Solidity"],
+    "frameworks_libraries": ["NestJS", "Express", "GraphQL", "Apollo Server", "React", "Next.js", "Redux", "Web3.js", "Ethers.js"],
+    "databases_orms": ["PostgreSQL", "Redis", "MongoDB", "TypeORM", "Sequelize", "Mongoose", "MySQL"],
+    "cloud_infrastructure": ["AWS (ECS, Lambda, RDS, S3, EC2, Secrets Manager, SES, CloudWatch)", "Docker"],
+    "monitoring_observability": ["Prometheus", "Grafana", "Custom Metrics", "Application Performance Monitoring"],
+    "devops_cicd": ["GitHub Actions", "Docker", "Container Orchestration", "Multi-environment Deployments"],
+    "testing": ["Jest", "Cypress", "E2E Testing", "Integration Testing"],
+    "blockchain_web3": ["Fireblocks SDK", "IPFS", "Moralis", "Smart Contract Integration", "Digital Asset Custody"]
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Cloud Developer Associate",
+      "status": "In-View"
+    },
+    {
+      "name": "Javascript Developer Nanodegree",
+      "issuer": "Udacity",
+      "year": "2021"
+    },
+    {
+      "name": "React Developer Nanodegree",
+      "issuer": "Udacity",
+      "year": "2021"
+    }
+  ],
+  "key_technical_achievements": [
+    "Production System at Scale: Architected and deployed carbon credit marketplace backend processing $10M+ in financial transactions with 99.9% uptime. System handles complex payment processing, blockchain settlements, automated workflows, and compliance requirements.",
+    "Monorepo Architecture: Designed NestJS monorepo supporting 3 distinct applications (Portal API, Admin API, Worker Service) with shared common modules, enabling code reuse while maintaining service independence and scalability.",
+    "Observability & Monitoring: Built comprehensive monitoring stack with Prometheus metrics collection, Grafana dashboards for application, infrastructure, and business metrics. Implemented alerting rules for proactive issue detection and system health monitoring.",
+    "Blockchain Integration: Integrated Fireblocks for secure digital asset custody, built smart contract interaction layer with proper error handling, retry logic, and transaction monitoring. Implemented Web3 infrastructure for decentralized finance features."
+  ]
 }
