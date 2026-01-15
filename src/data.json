@@ -7,6 +7,12 @@
   },
   "education": [
     {
+      "degree": "B.Eng Electrical Electronics Engineering",
+      "school": "Federal University of Technology Owerri, Nigeria.",
+      "timeline": { "from": "Jan 2017", "to": "Dec 2022" },
+      "summary": "• Bachelor of Engineering Degree in Electrical Electronics Engineering"
+    },
+    {
       "degree": "Cloud Developer Nanodegree",
       "school": "Udacity, Inc.",
       "timeline": { "from": "Jul 2022", "to": "Oct 2022" },
@@ -18,18 +24,11 @@
       "timeline": { "from": "May 2022", "to": "Aug 2022" },
       "summary": "\t• Backend Development with Node.js - Learnt how to work with Node.js and the core modules available, writing TypeScript for developer error reduction, testing with Jasmine to introduce unit testing in a Test Driven Development environment, and working with Express as a framework for building APIs. \n\t • Creating an API with PostgreSQL and Express ‑ This course covers the primary skills required for API development. I built a RESTful JSON API with Node and Postgres. Along the way, I learnt essential topics like databases and querying, API architecture, database migrations, REST, CRUD, creating a testing environment, password hashing and route authorization via JWTs. By completing the exercises and course content, I gained the knowledge to create a secure, well organized API from scratch and learnt skills JavaScript developers use every day. \n\t• Deployment Process (CI/CD, EBk, S3, Circle‑CI) ‑ Learnt how to create a production environment and automate the deployment of code to it. Built automated pipelines and wrote scripts to gain insights into the world of automated deployments."
     },
-
     {
       "degree": "React Developer Nanodegree",
       "school": "Udacity, Inc.",
       "timeline": { "from": "Jul 2021", "to": "Nov 2021" },
       "summary": "• This was a project‑based learning journey building declarative user interfaces, making state more predictable, and boosting app efficiency and robustness. I also had the opportunity to develop mobile apps for iOS and Android devices using React-native.\n\n\t• React Fundamentals\n\t• React and Redux\n\t• React Native"
-    },
-    {
-      "degree": "BEng. Electrical Electronics Engineering",
-      "school": "Federal University of Technology Owerri, Nigeria.",
-      "timeline": { "from": "Jan 2017", "to": "Dec 2022" },
-      "summary": "• Bachelor of Engineering Degree in Electrical Electronics Engineering"
     }
   ],
   "work": [
@@ -44,7 +43,7 @@
       "role": "Backend Engineer",
       "location": "Dubai, UAE",
       "company": "Reneum Technology Labs",
-      "timeline": { "from": "May 2023", "to": "Jan 2025" },
+      "timeline": { "from": "May 2023", "to": "Dec 2025" },
       "summary": "• Platform Architecture & Development: Built entire backend infrastructure for renewable energy investment platform using NestJS, GraphQL, PostgreSQL, and AWS. Architected scalable system handling complex financial transactions and project management workflows. Platform helped secure $1M in investor funding through technical excellence and reliability. \n• AWS Infrastructure Optimization: Migrated and optimized all AWS services (EC2, RDS, S3, IAM) from legacy account to new infrastructure, reducing AWS costs by 25% while improving performance and security posture. Implemented best practices for resource management and cost optimization. \n• Web3 Integration & Blockchain Services: Collaborated with Web3 team to integrate blockchain services using web3.js, ethers.js, and SIWE (Sign-In with Ethereum). Built secure wallet management, smart contract interactions, and transaction monitoring systems for decentralized finance features. \n• CI/CD Pipeline & Automation: Developed automated CI/CD pipeline using GitHub Actions and AWS EC2, eliminating manual deployments and reducing errors. Implemented automated testing, code quality checks, and deployment workflows across multiple environments. \n• Security & Authentication: Enhanced application security with OAuth and JWT authentication, implementing role-based access control and multi-factor authentication. Improved data integrity and user trust through comprehensive security measures."
     },
     {
@@ -87,8 +86,8 @@
     "ZICMA": {
       "name": "ZICMA",
       "description": "\n \t • ZICMA Carbon Credit Marketplace Platform: Architected and built production-grade backend system from scratch processing $1M+ in transactions. Designed NestJS monorepo with 3 microservices (Portal API, Admin API, Worker Service) using TypeScript, GraphQL, PostgreSQL, and Redis. System handles complex financial transactions, blockchain settlements, and automated credit processing with 99.9% uptime. \n \t • TECH STACK: TypeScript, NestJS, GraphQL, PostgreSQL, Redis, AWS (ECS, Lambda, RDS, S3, EC2, Secrets Manager, SES, CloudWatch), Docker, Prometheus, Grafana, GitHub Actions, Fireblocks SDK, IPFS, Stripe, Paynow",
-      "image_url": "https://drive.google.com/file/d/1PHGjXyniy0vlWvlQM_3CpP64O2K7c-p_/view",
-      "gif_url": "",
+      "image_url": "https://raw.githubusercontent.com/Godswilldev/portfolio/refs/heads/main/src/Assets/images/zicma.png",
+      "gif_url": "https://raw.githubusercontent.com/Godswilldev/portfolio/refs/heads/main/src/Assets/images/zicma.png",
       "live_url": "https://zicma.org.zw"
     },
     "Contract-Management-API": {
